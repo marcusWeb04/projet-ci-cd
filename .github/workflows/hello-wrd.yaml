@@ -5,7 +5,7 @@ on:
 
 jobs:
   hello:
-    runs-on: fedora-45
+    runs-on: ubuntu-lastest
 
     steps:
       - run: echo  "hello world"
