@@ -5,6 +5,7 @@ on:
 
 jobs:
   hello:
-    runs-on: fedora-35
+    runs-on: fedora-45
+
     steps:
       - run: echo  "hello world"
