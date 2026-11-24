@@ -1,0 +1,10 @@
+name: hello world
+
+on:
+  push:
+
+  jobs:
+    hello:
+      runs-on: fedora-35
+      steps:
+        - run: echo  "hello world"
